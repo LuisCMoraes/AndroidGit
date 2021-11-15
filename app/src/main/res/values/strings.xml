@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Pesquise</string>
+    <string name="digite_idade">Digite Idade</string>
+    <string name="digite_aqui_a_idade">Digite aqui a Idade</string>
+    <string name="digite_peso">Digite Peso</string>
+    <string name="digite_aqui_o_peso">Digite aqui o peso</string>
+    <string name="digite_altura">Digite Altura</string>
+    <string name="digite_aqui_a_altura">Digite aqui a altura</string>
+    <string name="selecione_uma_cor_de_olhos">Selecione uma Cor de OLHOS:</string>
+    <string name="preto">Preto</string>
+    <string name="azul">Azul</string>
+    <string name="verde">Verde</string>
+    <string name="castanho">Castanho</string>
+    <string name="selecione_uma_cor_de_cabelos">Selecione uma Cor de Cabelos:</string>
+    <string name="cpreto">Preto</string>
+    <string name="ccastanho">Castanho</string>
+    <string name="cloiro">Loiro</string>
+    <string name="cruivo">Ruivo</string>
+    <string name="ok">OK</string>
+    <string name="resultado">Resultado</string>
+</resources>

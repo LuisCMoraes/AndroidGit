@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/digite_idade"/>
+
+        <EditText
+            android:id="@+id/edtIdade"
+            android:hint="@string/digite_aqui_a_idade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:autofillHints="" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/digite_peso"/>
+
+        <EditText
+            android:id="@+id/edtPeso"
+            android:hint="@string/digite_aqui_o_peso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:autofillHints="" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/digite_altura"/>
+
+        <EditText
+            android:id="@+id/edtAltura"
+            android:hint="@string/digite_aqui_a_altura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:autofillHints="" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/selecione_uma_cor_de_olhos"/>
+
+        <RadioGroup
+            android:id="@+id/ragOlhos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rabPreto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/preto"
+                android:textSize="15sp"/>
+
+            <RadioButton
+                android:id="@+id/rabAzul"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/azul"
+                android:textSize="15sp"/>
+
+            <RadioButton
+                android:id="@+id/rabVerde"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/verde"
+                android:textSize="15sp"/>
+            <RadioButton
+                android:id="@+id/rabCastanho"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/castanho"
+                android:textSize="15sp"/>
+
+        </RadioGroup>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/selecione_uma_cor_de_cabelos"/>
+
+        <RadioGroup
+            android:id="@+id/ragCabelos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <RadioButton
+                android:id="@+id/rabCabPreto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/preto"/>
+
+            <RadioButton
+                android:id="@+id/rabCabCastanho"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/castanho"/>
+
+            <RadioButton
+                android:id="@+id/rabCabLoiro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cloiro"/>
+            <RadioButton
+                android:id="@+id/rabCabRuivo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cruivo"/>
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnOk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ok"/>
+
+        <TextView
+            android:id="@+id/txtMsg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/resultado"
+            android:textSize="12pt"
+            />
+    </LinearLayout>
+
+</ScrollView>
